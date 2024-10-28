@@ -1,0 +1,61 @@
+.parallax{
+    height: 100vh;
+   
+   /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=1b019f&c2=ab252d&gt=l&gd=dtl
+*/
+  background: linear(180deg, #0c0c1d,#111132);
+
+
+ overflow: hidden;
+ position: relative;
+ align-items: center;
+  justify-content: center;
+  z-index: -1;
+ h1{
+   background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 450px;
+    padding-top: 22vh;
+    font-size: 80px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+ }
+
+ .paralaxstar  {
+position: absolute;
+   inset: 0;
+   z-index: -3;
+   background-image: url(../Assets/stars.png); 
+  
+    }
+
+.parallax2{
+position: absolute;
+   inset: 0;
+   z-index: 20;
+   background-image: url(../Assets/mountains_front.png);  
+   
+    }
+    .parallax3{
+position: absolute;
+
+   inset: 0;
+   z-index: -1;
+   background-image: url(../Assets/moon.png);
+   background-repeat: no-repeat;  
+
+   
+    }
+
+}
+.bgg{
+ 
+ 
+   margin-top: -110px;
+}

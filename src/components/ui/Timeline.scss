@@ -1,0 +1,74 @@
+.project-text{
+    background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+justify-content: center;
+align-items: center;
+font-size: 90px;
+margin-left:-62px;
+    font-weight: 900;
+}
+.project-tagline{
+    color: white;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+letter-spacing: 3px;
+margin-left:-62px;
+}
+p{
+     color: white;
+    font-size: 30px;
+ font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+
+
+}
+
+.heading{
+
+    font-size: 22px;
+  
+    font-weight: 800;
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+z-index:-1;
+
+ 
+}
+
+.title-year{
+  display: none;
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 700; /* font-bold */
+  font-weight: 800;
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+/* For medium screens and larger (md) */
+@media (min-width: 768px) {
+  .title-year {
+    display: block; /* md:block */
+    padding-left: 5rem; /* md:pl-20 (20 * 0.25rem = 5rem) */
+    font-size: 3rem; /* md:text-5xl (5xl = 3rem) */
+    z-index:-10;
+  }
+}
+
+.content-pin{
+     display: block; /* block */
+  font-size: 14px; /* text-2xl */
+  margin-bottom: 1rem; /* mb-4 */
+  text-align: left; /* text-left */
+  font-weight: 400; /* font-bold */
+  color: #ffffff; /* text-neutral-400 */
+    font-family: 'Courier New', Courier, monospace;
+}
