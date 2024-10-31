@@ -1,5 +1,5 @@
 import './app.scss';
-import About from './Components/about/About';
+import About from './Components/About/About';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Parallax from './Components/Parallax/Parallax';
