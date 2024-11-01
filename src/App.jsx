@@ -12,7 +12,7 @@ import GlobeDemo from './Globaldemo';
 import Contact from './components/Contact/Contact';
 function App() {
   return (
-     <BrowserRouter>
+     <BrowserRouter >
     <div>
       <section id="HOMEPAGE">
         <Navbar />
@@ -35,6 +35,7 @@ function App() {
       <section id="CONTACT" ><Contact/> </section>
     </div>
       </BrowserRouter>
+    
   );
 }
 
