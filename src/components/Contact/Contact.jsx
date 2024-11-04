@@ -2,7 +2,7 @@ import  { useRef,useState } from "react";
 import emailjs from "@emailjs/browser";
 import GlobeDemo from "../../Globaldemo";
 import "./Contact.scss";
-import { TiTickOutline } from "react-icons/ti";
+
 export default function Contact() {
  const [ispopupvisible,setIPopopvisible]=useState(false);
   
