@@ -5,10 +5,7 @@ import "./Contact.scss";
 import { TiTickOutline } from "react-icons/ti";
 export default function Contact() {
  const [ispopupvisible,setIPopopvisible]=useState(false);
-  const togglepopUp =()=>{
-    setIPopopvisible(!ispopupvisible);
-
-  }
+  
 
   const form = useRef();
 
@@ -55,7 +52,7 @@ export default function Contact() {
           <div className="popup">
             <div className="popup-content">
               <h1 >message sent!👨‍💻</h1>
-        <TiTickOutline className="tick"    onClick={togglepopUp}/>
+      
             </div>
           </div>
         )}
