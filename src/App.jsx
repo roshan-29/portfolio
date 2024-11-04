@@ -1,8 +1,8 @@
 import './app.scss';
-import About from './Components/About/About';
-import Hero from './Components/Hero/Hero';
-import Navbar from './Components/Navbar/Navbar';
-import Parallax from './Components/Parallax/Parallax';
+import About from './components/About/About';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Parallax from './components/Parallax/Parallax';
 import './index.css'
 import Projects from './components/Projects/Projects';
 import { TimelineDemo } from './TimelinePage';
