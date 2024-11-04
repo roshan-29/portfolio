@@ -2,7 +2,7 @@ import  { useRef,useState } from "react";
 import emailjs from "@emailjs/browser";
 import GlobeDemo from "../../Globaldemo";
 import "./Contact.scss";
-import { TiTickOutline } from "react-icons/ti";
+
 export default function Contact() {
  const [ispopupvisible,setIPopopvisible]=useState(false);
   const togglepopUp =()=>{
@@ -55,7 +55,7 @@ export default function Contact() {
           <div className="popup">
             <div className="popup-content">
               <h1 >message sent!👨‍💻</h1>
-        <TiTickOutline className="tick"    onClick={togglepopUp}/>
+       
             </div>
           </div>
         )}
