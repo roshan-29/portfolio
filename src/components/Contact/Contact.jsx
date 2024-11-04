@@ -5,10 +5,7 @@ import "./Contact.scss";
 
 export default function Contact() {
  const [ispopupvisible,setIPopopvisible]=useState(false);
-  const togglepopUp =()=>{
-    setIPopopvisible(!ispopupvisible);
-
-  }
+  
 
   const form = useRef();
 
