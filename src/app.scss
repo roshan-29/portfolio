@@ -2,6 +2,7 @@
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    
 }
 *{
     margin: 0;
@@ -9,6 +10,7 @@ html{
     box-sizing: border-box;
     font-size: "DM Sans",sans serif;
 }
+
 
 section{
     height: 100vh;
@@ -27,7 +29,8 @@ section{
 }
 body{
     background-color:#000000;
-   
+ overflow-x: hidden;
+ 
 }
 
 a{
@@ -51,4 +54,18 @@ padding-left: 800px;
     justify-content: center;
     transform: rotateZ('34');
    
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for debugging */
+}
+
+/* App.css */
+@media (max-width: 768px) {
+  body {
+    transform: scale(0.7); /* Adjust scale as needed */
+    transform-origin: top left;
+    width: 1366px; /* Simulate a fixed desktop width */
+    overflow-x: scroll;
+  }
 }

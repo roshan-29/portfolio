@@ -1,32 +1,84 @@
-.navbar {
-   
-  height: 100px;
 
+
+
+/* Navbar styling */
+.navbar {
+  height: 100px;
 }
 
+/* Wrapper styling */
 .wrapper {
   max-width: 1366px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
- height: 100%;
-  span{
-font-weight: bold; 
-font-size: 30px;
-
+  height: 100%;
+  gap: 20px; /* Initial gap */
+  padding: 0 15px; /* Add padding to avoid touching the screen edge */
 }
+
+.wrapper span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Media query for responsive adjustments */
+@media (max-width: 1366px) {
+  .wrapper {
+    gap: 15px; /* Reduce the gap */
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .wrapper {
+    overflow-x:hidden;
+    gap: 10px; /* Further reduce the gap for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: row; /* Adjust direction if needed */
+    gap: 5px; /* Minimal gap for smaller screens */
+  }
 }
 
 
 .social {
-display: flex;
-flex-direction: row;
-gap: 50px;
-
+  display: flex;
+  flex-direction: row;
+  gap: 50px; /* Initial gap for larger screens */
 }
 
+/* Media query for reducing gap */
+@media (max-width: 1366px) {
+  .social {
+    gap: 40px; /* Reduce the gap slightly */
+  }
+}
+
+@media (max-width: 1024px) {
+  .social {
+    gap: 30px; /* Further reduce the gap */
+  }
+}
+
+@media (max-width: 768px) {
+  .social {
+    gap: 20px; /* Minimal gap for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    
+  }
+}
+
+@media (max-width: 380px) {
+  .social {
+    gap: 5px; /* Smallest gap for very narrow screens */
+    flex-direction: column; /* Stack items vertically on very small screens */
+  }
+}
 
 
 

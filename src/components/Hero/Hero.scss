@@ -50,7 +50,37 @@ h1{
 
 img{
   margin-top:100px;
-    width: 50px;
+    width:50px;
+} 
+
+@media (max-width: 1024px) {
+  .wrapper .texthero h2 {
+    font-size: 50px;
+  }
+  .wrapper .texthero h1 {
+    font-size: 70px;
+  }
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .wrapper .texthero h2 {
+    font-size: 40px;
+  }
+  .wrapper .texthero h1 {
+    font-size: 60px;
+  }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+  .wrapper .texthero h2 {
+    font-size: 30px;
+    letter-spacing: 5px; /* Adjust letter-spacing for smaller screens */
+  }
+  .wrapper .texthero h1 {
+    font-size: 40px;
+  }
 }
 
 .slidingtext {
@@ -135,4 +165,54 @@ margin-top:250px;
   position: relative; 
   z-index: 100; 
   white-space:nowrap;
+}
+
+
+@media (max-width: 1024px) {
+  .wrapper .texthero h2 {
+    font-size: 50px;
+  }
+  .wrapper .texthero h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .texthero h2 {
+    font-size: 40px;
+  }
+  .wrapper .texthero h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper .texthero h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+  .wrapper .texthero h1 {
+    font-size: 40px;
+  }
+}
+
+@keyframes spinning82341 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1080px) {
+  .wrapper .texthero h2 {
+    font-size: 55px; /* Adjust as needed for a neat display */
+    letter-spacing: 8px;
+  }
+  .wrapper .texthero h1 {
+    font-size: 75px; /* Adjust font size */
+  }
+  .button-download {
+    margin-top: 200px; /* Adjust button positioning */
+    padding: 15px; /* Adjust padding */
+    font-size: 16px; /* Adjust text size */
+  }
 }
