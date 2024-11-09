@@ -52,12 +52,11 @@ export default function Contact() {
           <div className="popup">
             <div className="popup-content">
               <h1 >message sent!👨‍💻</h1>
-       
             </div>
           </div>
         )}
         <button
-          type="submit"
+          type="submit"    
           value="Send"
           className="contact-submit"
        
