@@ -21,6 +21,7 @@ section {
 }
 
 .section-project {
+
   height: 6310.3px; /* Use vh here */
   scroll-behavior: smooth;
   scroll-snap-type: none;
@@ -44,3 +45,15 @@ a {
 
 
 
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /* Mobile styles */
+  .section-project {
+  
+    height: 8000.3px; /* Ensure this is applied */
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+ 
+  }
+  }
