@@ -133,3 +133,155 @@ background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(
   margin-top:6.5px;
  
 }
+
+@media only screen and  (max-width: 520px) {
+
+  /* Mobile styles */
+
+  .contactss{
+    margin-left:-5px;
+    margin-top: -410px;
+
+   
+   
+
+}
+
+.connect p{
+    margin-left: 95px;
+background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+font-size: 70px;
+ font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+   
+}
+.connect h1{
+  margin-top:10px;
+ 
+     margin-left: 114px;
+    font-size: 25px;
+    color: #ffffff;
+       font-weight: 900;
+         z-index: 500;
+       
+         
+}
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0;
+  height: 70px;
+  width: 320px;
+  position: relative;
+  margin-left: 100px;
+  
+}
+
+.inputGroup input,textarea {
+  font-size: 120%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid transparent;
+  background-color: transparent;
+  width: 100%;
+  color: #ffffff; /* Text color when typing */
+  border-image: radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%) 1;
+  border-image-slice: 1;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.inputGroup input:hover,
+.inputGroup input:focus,
+.inputGroup textarea:focus, 
+  .inputGroup textarea:hover{
+  box-shadow: 0 0 15px 3px rgba(225, 25, 165, 0.7), 0 0 15px 3px rgba(85, 13, 202, 0.7); /* Glow effect with gradient colors */
+  border-color: transparent; /* Keep border transparent while applying the box-shadow */
+}
+
+/* Label Styling */
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
+  font-weight:800;
+  
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(0%) scale(.9);
+  margin-left:-85px;
+
+  padding: 0.4em;
+
+}
+
+.inputGroup :is(textarea:focus) ~label {
+  transform: translateY(0%) scale(.9);
+  margin-left:-95px;
+
+  padding: 0.4em;
+
+}   
+.contact-submit {
+  margin-left: 195px;
+  margin-top: 60px;
+  height: 50px;
+  width: 130px;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  color: #ffffff;
+  box-shadow: 0px 0px 10px 3px rgb(136, 17, 240);
+  font-weight: 900;
+  font-size: 120%;
+  letter-spacing: 3px;
+ 
+}
+
+/* Styles for the pop-up overlay */
+.popup {
+  position: fixed;
+  top: -180px;
+  left:1050px;
+  width: 30%;
+  height: 80%;
+white-space:nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures it's above other content */
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+/* Styles for the pop-up conten */
+.popup-content {
+background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  
+  
+}
+.tick{
+
+  margin-top:6.5px;
+ 
+}
+
+  }

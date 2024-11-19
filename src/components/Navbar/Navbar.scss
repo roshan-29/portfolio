@@ -3,6 +3,7 @@
 
 /* Navbar styling */
 .navbar {
+
   height: 100px;
 }
 
@@ -23,61 +24,16 @@
   font-size: 30px;
 }
 
-/* Media query for responsive adjustments */
-@media (max-width: 1366px) {
-  .wrapper {
-    gap: 15px; /* Reduce the gap */
-  }
-}
 
-@media (max-width: 1024px) {
 
-  .wrapper {
-    overflow-x:hidden;
-    gap: 10px; /* Further reduce the gap for smaller screens */
-  }
-}
 
-@media (max-width: 768px) {
-  .wrapper {
-    flex-direction: row; /* Adjust direction if needed */
-    gap: 5px; /* Minimal gap for smaller screens */
-  }
-}
+
 
 
 .social {
   display: flex;
   flex-direction: row;
   gap: 50px; /* Initial gap for larger screens */
-}
-
-/* Media query for reducing gap */
-@media (max-width: 1366px) {
-  .social {
-    gap: 40px; /* Reduce the gap slightly */
-  }
-}
-
-@media (max-width: 1024px) {
-  .social {
-    gap: 30px; /* Further reduce the gap */
-  }
-}
-
-@media (max-width: 768px) {
-  .social {
-    gap: 20px; /* Minimal gap for smaller screens */
-    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-    
-  }
-}
-
-@media (max-width: 380px) {
-  .social {
-    gap: 5px; /* Smallest gap for very narrow screens */
-    flex-direction: column; /* Stack items vertically on very small screens */
-  }
 }
 
 
@@ -294,3 +250,27 @@
     opacity: 1;
   }
 }
+
+@media only screen and  (max-width: 500px) {
+
+  /* Mobile styles */
+  .buttons {
+    margin-left: 80px;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+   
+   margin-left:-20px;
+    padding: 0px 0px;
+    gap: 0px;
+  }
+  }

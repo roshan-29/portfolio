@@ -7,7 +7,7 @@ export function AnimatedPinDemo() {
     <div className="h-[40rem] w-full flex items-center justify-center ">
       <PinContainer
         title="Live Demo"
-        href="https://twitter.com/mannupaaji"
+        href="https://github.com/roshan-29"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3

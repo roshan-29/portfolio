@@ -69,7 +69,7 @@ export default function Contact() {
 
       
       <div className="contactss">
-        <GlobeDemo />
+        <GlobeDemo  className="globe"/>
       </div>
     </div>
   );
