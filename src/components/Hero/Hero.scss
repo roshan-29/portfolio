@@ -299,7 +299,7 @@ margin-top:250px;
 }
 
 /* Handle very small screens */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 410px) {
   .Hero{
     height: calc(100vh - 100px);
  width:150%;
@@ -335,8 +335,8 @@ margin-top:250px;
 .spinner {
     width: 100px;
     height: 100px;
-    top: 24%;
-    left: 70%;
+    top: 21.5%;
+    left: 74.5%;
 }
 
 .button-download {
