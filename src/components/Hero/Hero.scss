@@ -1,6 +1,6 @@
 .Hero{
     height: calc(100vh - 100px);
-   
+ 
     background: linear(180deg, #0c0c1d,#111132);
 
  overflow: hidden;
@@ -299,23 +299,59 @@ margin-top:250px;
 }
 
 /* Handle very small screens */
-@media screen and (max-width: 320px) {
-  .texthero h2 {
-      font-size: 24px;
-      letter-spacing: 2px;
-  }
+@media screen and (max-width: 380px) {
+  .Hero{
+    height: calc(100vh - 100px);
+ width:150%;
+    background: linear(180deg, #0c0c1d,#111132);
+
+ overflow: hidden;
+ position: relative;
   
-  .texthero h1 {
-      font-size: 32px;
-  }
-  
-  .man, .spinner {
-      width: 80px;
-      height: 80px;
-  }
-  
-  .button-download {
-      padding: 8px;
-      font-size: 12px;
-  }
+
+}
+
+  .texthero {
+    margin-left: -30px;
+    gap: 15px;
+}
+
+.texthero h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.texthero h1 {
+    font-size: 40px;
+}
+
+.man {
+    width: 100px;
+    height: 100px;
+    margin-right: 55px;
+    margin-top: 129.5px;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    top: 24%;
+    left: 70%;
+}
+
+.button-download {
+  margin-bottom:5px;
+    margin-left: 33px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.slidingtext {
+    font-size: 20vh;
+}
+
+.texthero img {
+    width: 30px;
+    margin-top: 50px;
+}
 }
