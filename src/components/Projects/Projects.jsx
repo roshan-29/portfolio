@@ -14,10 +14,10 @@ export default function Projects() {
           
          >
         <TextHoverEffect text="Every Line of Code Tells a Story. Discover Mine!" />
-      </div>
-             <div className="h-[7rem] flex  justify-center ">
+      </div> 
+             <div  className="text-3" >
          
-          <TextHoverEffect text="👨🏼‍💻" />
+          <TextHoverEffect text="👨🏼‍💻"  />
         </div>
         </div>
       </div>

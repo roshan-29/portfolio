@@ -22,19 +22,35 @@
   justifyContent: center;
 
 }
+
+.text-3{
+  height: 9rem;
+  display: flex;
+  fontWeight: 800;
+  justifyContent: center;
+}
 @media screen and (max-width: 410px) {
 .lamps{
   margin-top:150px;
   width:150%;
+
 }
   
 .text-2{
-  
+  margin-top:-5px;
     height: 1.97rem;
     display: flex;
-    fontWeight: 700;
+    fontWeight: 600;
     justifyContent: center;
-  
+  margin-bottom:20px;
+}
+
+.text-3{
+  height: 13rem;
+  display: flex;
+  fontWeight: 800;
+  justifyContent: center;
+  margin-top:40px;
 }
 
 }
