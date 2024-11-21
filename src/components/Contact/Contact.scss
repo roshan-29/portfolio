@@ -252,7 +252,7 @@ font-size: 70px;
   left:1050px;
   width: 30%;
   height: 80%;
-white-space:nowrap;
+  white-space:nowrap;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -263,7 +263,7 @@ white-space:nowrap;
     color: rgb(255, 255, 255);
 }
 
-/* Styles for the pop-up conten */
+/* Styles for the pop-up content */
 .popup-content {
 background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
 
