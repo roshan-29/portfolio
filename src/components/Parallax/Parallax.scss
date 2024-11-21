@@ -13,18 +13,19 @@
  align-items: center;
   justify-content: center;
   z-index: -1;
- h1{
+ .text-scroll{
    background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-left: 450px;
+    margin-left: 31%;
     padding-top: 22vh;
     font-size: 80px;
     font-weight: 900;
     align-items: center;
     justify-content: center;
     z-index: 10;
+    white-space:nowrap;
  }
 
  .paralaxstar  {
@@ -58,4 +59,38 @@ position: absolute;
  
  
    margin-top: -110px;
+}
+
+
+@media screen and (max-width: 410px) {
+   .parallax{
+      height: 100vh;
+      width:150%;
+      background: linear(180deg, #0c0c1d,#111132);
+
+
+ overflow: hidden;
+
+ align-items: center;
+  justify-content: center;
+  z-index: -1;
+  .text-scroll{
+   background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -23px;
+    padding-top: 38%;
+    font-size: 80px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+ }
+
+   }
+   
+   
+
 }

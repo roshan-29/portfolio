@@ -52,7 +52,7 @@ const yimg=useTransform(scrollYProgress,[0,1],["0%","120%"]);
             
                   <motion.div className="textcontainer" style={{y:ytext}}  variants={textvariants} initial="initial" animate="animate">
    
- <motion.h1 style={{y:ytext}}  variants={textvariants} initial="initial" animate="animate"> scroll down!</motion.h1>
+ <motion.h1 style={{y:ytext}}  variants={textvariants} initial="initial" animate="animate" className="text-scroll"> scroll down!</motion.h1>
   
 
       
