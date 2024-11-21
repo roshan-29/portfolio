@@ -101,3 +101,34 @@ font-weight: 800;
     letter-spacing: 5px;
     
 }
+
+
+@media screen and (max-width: 410px) {
+  
+  
+  
+  .services {
+    background: linear(180deg, #0c0c1d,#111132);
+    
+    height: 300vh;
+    width:150%;
+    overflow: hidden;
+
+    }
+
+    //skills
+.skillss{
+
+  margin-top:-650px;
+  margin-left: 180px;
+  background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+   
+      font-weight: 900;
+  }
+}

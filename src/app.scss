@@ -59,4 +59,10 @@ a {
   #CONTACT{
     height:110vh;
   }
+
+  #parallax{
+
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+  }
   }

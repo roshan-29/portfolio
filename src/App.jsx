@@ -19,7 +19,7 @@ function App() {
 
         <Hero />
       </section>
-      <section >
+      <section id='parallax' >
         <Parallax />
       </section>
       <section id="SKILLS">

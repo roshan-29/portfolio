@@ -14,3 +14,27 @@
 
     
 }
+.text-2{
+  
+  height: 4.8rem;
+  display: flex;
+  fontWeight: 800;
+  justifyContent: center;
+
+}
+@media screen and (max-width: 410px) {
+.lamps{
+  margin-top:150px;
+  width:150%;
+}
+  
+.text-2{
+  
+    height: 1.8rem;
+    display: flex;
+    fontWeight: 800;
+    justifyContent: center;
+   
+}
+
+}

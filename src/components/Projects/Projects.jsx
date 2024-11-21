@@ -9,10 +9,12 @@ export default function Projects() {
       <div className="lamps">
         <LampDemo />
         <div className="cl">
-          <div className="h-[5rem] flex font-extrabold justify-center ">
-            <TextHoverEffect text="Every Line of Code Tells a Story.Discover Mine!" />
-            
-          </div>
+        <div  className="text-2" 
+
+          
+         >
+        <TextHoverEffect text="Every Line of Code Tells a Story. Discover Mine!" />
+      </div>
              <div className="h-[7rem] flex  justify-center ">
          
           <TextHoverEffect text="👨🏼‍💻" />
