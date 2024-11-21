@@ -22,7 +22,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "PET SHOP  ",
+      title: "PET SHOP ",
       content: (
         <div>
          <div className="grid grid-cols-2 gap-4 ">

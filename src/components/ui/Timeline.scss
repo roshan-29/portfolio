@@ -72,3 +72,23 @@ background-clip: text;
   color: #ffffff; /* text-neutral-400 */
     font-family: 'Courier New', Courier, monospace;
 }
+
+.full-width-container {
+  width: 100%; /* w-full */
+  background-color: black; /* bg-black */
+  font-family: 'sans-serif'; /* font-sans */
+  padding-left: 0; /* Default padding */
+  padding-right: 0;
+
+ 
+}
+
+.project-container-text {
+  max-width: 112rem; /* Tailwind's max-w-7xl (7 * 16rem = 112rem) */
+  margin-left: auto; /* Center align horizontally */
+  margin-right: auto;
+  padding-top: 5rem; /* py-20 (20 * 0.25rem = 5rem) */
+  padding-bottom: 5rem;
+  padding-left: 1rem; /* px-4 (4 * 0.25rem = 1rem) */
+  padding-right: 1rem;
+}
