@@ -101,7 +101,7 @@ font-size: 79px;
   top: -180px;
   left:1050px;
   width: 30%;
-  height: 80%;
+  height: 70%;
 white-space:nowrap;
   display: flex;
   flex-direction: row;
@@ -110,21 +110,21 @@ white-space:nowrap;
   z-index: 1000; /* Ensures it's above other content */
     font-size: 20px;
     font-weight: 900;
-    color: rgb(255, 255, 255);
+ 
 }
 
 /* Styles for the pop-up content */
 .popup-content {
 background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
-
+ color:black;
   display: flex;
   flex-direction: row;
   gap: 20px;
-  padding: 13px;
+  padding: 20px;
   font-size: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 250px;
+  width: 195px;
   
   
 }
@@ -252,7 +252,7 @@ font-size: 70px;
   left:1050px;
   width: 30%;
   height: 80%;
-  white-space:nowrap;
+white-space:nowrap;
   display: flex;
   flex-direction: row;
   justify-content: center;

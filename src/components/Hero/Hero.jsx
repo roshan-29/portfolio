@@ -58,15 +58,17 @@ transition:{
  
   return (
     <div className="Hero">
+    
       <div className="man"></div>
       <div className="wrapper">
      <motion.a href="#CONTACT" className="button-download"  variants={textvariants}
           initial="initial"
           animate="animate">
-  <motion.button>
-    Contact me
+  <motion.button  >
+   Know More
   </motion.button>
 </motion.a>
+
         <motion.div
           className="texthero"
           variants={textvariants}
@@ -77,7 +79,7 @@ transition:{
 
           <motion.h1 variants={textvariants}>Frontend Developer </motion.h1>
 
-         
+        
         
           <motion.img
             src={scroll}
@@ -94,6 +96,7 @@ transition:{
         initial="initial"
         animate="animate"
       >
+      
         Developer Kannada-Writer Coder React-Lover
       </motion.div>
 

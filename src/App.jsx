@@ -10,11 +10,14 @@ import { TimelineDemo } from './TimelinePage';
 import { BrowserRouter } from 'react-router-dom';
 import GlobeDemo from './Globaldemo';
 import Contact from './components/Contact/Contact';
+import Cursor from './components/Cursor/Cursor';
 function App() {
   return (
      <BrowserRouter >
     <div>
+    <Cursor />
       <section id="HOMEPAGE">
+      
         <Navbar />
 
         <Hero />
@@ -29,10 +32,11 @@ function App() {
         <Projects />
       </section>
      
-      <section className="section-project" id="PROJECTS">  <TimelineDemo /> </section>
+      <section className="section-project" id="PROJECTS">  <TimelineDemo />  </section>
      
 
       <section id="CONTACT" ><Contact/> </section>
+    
     </div>
       </BrowserRouter>
     

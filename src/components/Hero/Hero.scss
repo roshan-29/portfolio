@@ -53,24 +53,9 @@ img{
     width:50px;
 } 
 
-@media (max-width: 1024px) {
-  .wrapper .texthero h2 {
-    font-size: 50px;
-  }
-  .wrapper .texthero h1 {
-    font-size: 70px;
-  }
-}
 
-/* For smaller screens */
-@media (max-width: 768px) {
-  .wrapper .texthero h2 {
-    font-size: 40px;
-  }
-  .wrapper .texthero h1 {
-    font-size: 60px;
-  }
-}
+
+
 
 /* For very small screens */
 @media (max-width: 480px) {
@@ -80,6 +65,10 @@ img{
   }
   .wrapper .texthero h1 {
     font-size: 40px;
+  }
+
+  .contact-button{
+    z-index:-2;
   }
 }
 
@@ -163,93 +152,16 @@ margin-top:250px;
   margin-left: 120px;
   font-weight: 600;
   position: relative; 
-  z-index: 100; 
+  z-index: -1; 
   white-space:nowrap;
 }
 
 
 /* Responsive Design */
-/* Large screens (laptops/desktops) */
-@media screen and (max-width: 1366px) {
-  .wrapper {
-      padding: 0 20px;
-  }
-  
-  .man {
-      margin-right: 100px;
-  }
-  
-  .spinner {
-      left: 70%;
-  }
-}
 
-/* Medium screens (tablets) */
-@media screen and (max-width: 1024px) {
-  .texthero h2 {
-      font-size: 50px;
-  }
-  
-  .texthero h1 {
-      font-size: 70px;
-  }
-  
-  .man {
-      width: 150px;
-      height: 150px;
-      margin-right: 50px;
-  }
-  
-  .spinner {
-      width: 150px;
-      height: 150px;
-      left: 65%;
-  }
-  
-  .button-download {
-      margin-left: 60px;
-  }
-}
 
-/* Small screens (tablets/large phones) */
-@media screen and (max-width: 768px) {
-  .texthero {
-      margin-left: -70px;
-      gap: 20px;
-  }
-  
-  .texthero h2 {
-      font-size: 40px;
-      letter-spacing: 5px;
-  }
-  
-  .texthero h1 {
-      font-size: 60px;
-  }
-  
-  .man {
-      width: 120px;
-      height: 120px;
-      margin-right: 30px;
-      margin-top: 50px;
-  }
-  
-  .spinner {
-      width: 120px;
-      height: 120px;
-      top: 10%;
-      left: 60%;
-  }
-  
-  .slidingtext {
-      font-size: 30vh;
-  }
-  
-  .button-download {
-      margin-left: 30px;
-      padding: 15px;
-  }
-}
+
+
 
 /* Extra small screens (phones) */
 @media screen and (max-width: 500px) {
@@ -299,7 +211,7 @@ margin-top:250px;
 }
 
 /* Handle very small screens */
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 550px) {
   .Hero{
     height: calc(100vh - 100px);
  width:150%;
@@ -355,5 +267,42 @@ margin-top:250px;
 .texthero img {
     width: 30px;
     margin-top: 50px;
+}
+.contact-button{
+  z-index:-2;
+}
+}
+
+
+@media screen and (max-width: 320px){
+
+  .Hero{
+    height: calc(100vh - 100px);
+ width:161%;
+    background: linear(180deg, #0c0c1d,#111132);
+
+ overflow: hidden;
+ position: relative;
+
+}
+ .man {
+  width: 100px;
+  height: 100px;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  top: 12.5%;
+  left: 60.5%;
+}
+
+
+.button-download {
+  margin-bottom:90px;
+    margin-left: 29px;
+    padding: 10px;
+    font-size: 14px;
 }
 }

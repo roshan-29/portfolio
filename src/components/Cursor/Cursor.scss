@@ -1,0 +1,11 @@
+.cursor {
+  position: fixed;
+  width: 40px; /* Adjust size */
+  height: 40px;
+  background:  radial-gradient(circle at 52.1% -29.6%, rgb(225, 25, 165) 40%, rgb(85, 13, 202) 100.2%);
+  border-radius: 50%; /* Makes it circular */
+  pointer-events: none; /* Ensures the cursor doesn’t block interactions */
+  transform: translate(-50%, -50%); /* Centers the div on the cursor */
+  z-index: 9999; /* Brings it above other elements */
+  will-change: transform; /* Optimizes performance for rapid updates */
+}
